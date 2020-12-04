@@ -1,0 +1,7 @@
+YOLOV4:
+  CFG: "./detector/YOLOv3/cfg/yolov4.cfg"
+  WEIGHT: "./detector/YOLOv3/weight/yolov4_1_3_416_416_static.onnx"
+  CLASS_NAMES: "./detector/YOLOv3/cfg/coco.names"
+
+  SCORE_THRESH: 0.1
+  NMS_THRESH: 0.4
